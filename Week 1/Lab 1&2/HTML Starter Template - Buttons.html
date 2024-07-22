@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description"	content="Data Visualisation Exercise 1"/>
+	<meta name="keywords"		  content="HTML, CSS"/>
+	<meta name="author"			  content="Mason Veljan"/>
+	<link rel="stylesheet" href="styles.css">
+	
+	<title>Task 1.1 HTML and CSS Demo Page</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<!--Insert description of exercise  -->
+
+	<style>
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Pets and the Pandemic</h1>
+	<h2>Animal Medicines Australia</h2>
+
+	<p> There has been a substantial boom in pet ownership, with an estimated 30.4 million pets across the country.<br>
+	Nationally, 69% of households now own a pet, up from 60% only two years ago.<br>
+	This has been led by a surge in dog ownership - with over a million additional dogs being brought into Australian households since 2019.</p>
+
+	<ul>
+		<li>A fifth (19%) of all pet dogs in Australia have been procured during the pandemic.</li>
+		<li>A quarter (24%) of all pet cats in the country were also obtained during the pandemic.</li>
+		<li>On average, pet owners are spending $3,200 per dog and $2,100 per cat each year.</li>
+		<li>This is primarily on food, veterinary services, and healthcare.</li>
+	</ul>
+	
+	<button id="b1" onClick="FirstChart()">2019</button>
+	<button id="b2" onClick="SecondChart()">2021</button>
+	<button id="b3" onClick="ThirdChart()">Both</button>
+	<br>
+	<img id="charts" src="2019.png" alt="Press Button To View Image" width="30%">
+	
+	<script>
+		var chartImage=document.querySelector("#charts");
+		
+		function FirstChart()
+		{
+			chartImage.src="2019.png";
+		}
+		
+		function SecondChart()
+		{
+			chartImage.src="2021.png";
+		}
+		
+		function ThirdChart()
+		{
+			chartImage.src="2019-2021.png";
+		}
+		
+		
+	</script>
+	
+	<!--
+	<figure>
+	<img src="pet_ownership_in_australia_table.png" width="30%">
+	<figcaption>Fig.1 Comparison of Pet Ownership in 2019 and 2021. Data Source: <a href="https://animalmedicinesaustralia.org.au/wp-content/uploads/2021/08/AMAU005-PATP-Report21_v1.4_WEB.pdf">Animal Medicines Australia Report</a>
+	</figure>
+	
+	<p>The pandemic appears to have strengthened the relationship between people and their pets as they spends more<br>
+	time together, with 70% saying that being a et owners has improved heir lives during the COVID-19 era.</p>
+	-->
+	
+
+
+
+	<footer>COS30045 Data Visualisation - Mason Veljan (101722004)</footer>
+	
+	
+
+</body>
+</html>

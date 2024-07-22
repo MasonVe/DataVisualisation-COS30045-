@@ -1,0 +1,48 @@
+h1 {
+	color: blue;
+	font-family: verdana;
+}
+
+h2{
+	font-family: verdana;
+}
+
+p{
+	font-family: arial;
+}
+
+ul{
+	font-family: arial;
+}
+
+figcaption{
+	font-style: italic;
+}
+
+footer{
+	background-color: silver;
+}
+
+#b1
+{
+	background-color: #008CBA;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+}
+
+#b2
+{
+	background-color: #7FFF00;
+	 font-weight: bold;
+	 border-radius: 8px;
+	 border: none;
+}
+
+#b3
+{
+	background-color: #FF8C00;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+}
