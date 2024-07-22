@@ -1,0 +1,8 @@
+daysarray
+https://mercury.swin.edu.au/cos30020/s101722004/lab02/daysarray.php
+
+iseven
+https://mercury.swin.edu.au/cos30020/s101722004/lab02/iseven.php
+
+module02
+https://mercury.swin.edu.au/cos30020/s101722004/lab02/module02.php
